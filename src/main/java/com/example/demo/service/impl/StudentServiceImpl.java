@@ -14,8 +14,6 @@ public class StudentServiceImpl implements StudentService{
     public Student poststudent(Student st){
         return stdrepo.save(st);
     }
-    public Student getstudent(Student st){
-        return stdrepo.
-    }
+    
 
 }
