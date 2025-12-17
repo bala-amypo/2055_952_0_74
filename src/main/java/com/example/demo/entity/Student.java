@@ -1,7 +1,8 @@
 package com.example.demo.entity;
 
 import java.time.LocalDate;
-
+import jarkarta.persistence.Entity;
+@Entity
 public class Student{
     private Long id;
     private String name;
@@ -47,6 +48,6 @@ public class Student{
         this.dept=dept;
         this.dob=dob;
         this.cgpa=cgpa;
-        
+
     }
 }
