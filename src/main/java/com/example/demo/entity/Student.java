@@ -1,9 +1,12 @@
 package com.example.demo.entity;
 
 import java.time.LocalDate;
-import jarkarta.persistence.Entity;
+import jarkarta.persistence.*;
+
 @Entity
 public class Student{
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDE)
     private Long id;
     private String name;
     private String dept;
